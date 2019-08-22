@@ -18,5 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::post('/portal/auth', 'WorkforceManagementSystem@auth')->name('auth');
-Route::post('/hr/resource', 'WorkforceManagementSystem@new_employee')->name('new_employee');
+Route::post('/wfm/portal/auth', 'WorkforceManagementSystem@auth')->name('auth');
+Route::post('/wfm/hr/resource', 'WorkforceManagementSystem@new_employee')->name('new_employee');
