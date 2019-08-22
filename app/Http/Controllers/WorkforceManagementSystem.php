@@ -71,7 +71,8 @@ class WorkforceManagementSystem extends Controller
                "operator": "in",
                "value": "Operations"
             }],
-            "results": {"search_read":    [
+            "results": [{
+                "search_read":    [
                      {
                   "write_date": "2019-08-22 13:29:14",
                   "notes": false,
@@ -585,7 +586,8 @@ class WorkforceManagementSystem extends Controller
                   "additional_note": false,
                   "emergency_contact": false
                }
-            ]},
+            ]}
+            ],
             "options": {},
             "model": "hr.employee",
             "action": "search_read"
